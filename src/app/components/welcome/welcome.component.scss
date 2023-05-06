@@ -27,6 +27,9 @@
             font-size: 1rem;
             font-weight: 600;
             background-color: #673ab7;
+            &:hover {
+                transform: scale(1.05);
+            }
         }
     }
     .welcome-img {
