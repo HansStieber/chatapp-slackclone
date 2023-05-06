@@ -10,11 +10,8 @@ import { ImprintComponent } from './components/imprint/imprint.component';
 import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-<<<<<<< HEAD
 import {MatInputModule} from '@angular/material/input';
-=======
 import {MatButtonModule} from '@angular/material/button';
->>>>>>> 1637799a8018e11376483bd7798b3a0c3207df9f
 
 @NgModule({
   declarations: [
@@ -30,11 +27,8 @@ import {MatButtonModule} from '@angular/material/button';
     AppRoutingModule,
     MatSlideToggleModule,
     BrowserAnimationsModule,
-<<<<<<< HEAD
-    MatInputModule
-=======
+    MatInputModule,
     MatButtonModule
->>>>>>> 1637799a8018e11376483bd7798b3a0c3207df9f
   ],
   providers: [],
   bootstrap: [AppComponent]
