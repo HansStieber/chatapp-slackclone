@@ -9,6 +9,7 @@ import { LoginComponent } from './components/login/login.component';
 import { ImprintComponent } from './components/imprint/imprint.component';
 import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
