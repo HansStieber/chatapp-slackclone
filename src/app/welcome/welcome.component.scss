@@ -29,7 +29,6 @@
             font-size: 1rem;
             font-weight: 600;
             background-color: #3F51B5;
-
             &:hover {
                 transform: scale(1.05);
             }
@@ -49,14 +48,4 @@
 
         ;
     }
-}
-
-.imprint {
-    position: absolute;
-    display: flex;
-    justify-content: space-evenly;
-    left: 40%;
-    right: 40%;
-    bottom: 0;
-    color: #ffffff80;
 }
